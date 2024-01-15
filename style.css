@@ -1,0 +1,137 @@
+/* Font's */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
+}
+
+.navbar1 {
+    color: #3A3A3A;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    width: auto;
+    height: 52.2px;
+
+}
+
+.navbar2 {
+    display: flex;
+}
+
+.navbar2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar2 li {
+    display: inline;
+    margin-right: 20px;
+
+
+
+
+}
+
+.navbar2 li a {
+    font-weight: 700;
+    color: #484848;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
+    background: url(images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center right 100px;
+    padding-right: 120px;
+
+}
+
+.main-content {
+    width: 1440px;
+    height: 336px;
+}
+
+.main-content h2 {
+    width: 582px;
+    height: 133px;
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-family: 'Poppins';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main-content p {
+    width: 505px;
+    height: 60.9px;
+    color: #3A3A3A;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.btndiv {
+    margin-top: 26.1px;
+    width: 196px;
+    height: 44px;
+    display: flex;
+    padding: 10px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+}
+.btndiv p{
+    width: 116px;
+    color:#fff;
+    height: 24px;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btndiv img {
+    width: 24px;
+    height: 24px;
+    
+}
+
+.partner{
+    margin-top: 100px;
+    margin-left: 165px;
+    width: 1110px;
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid black;
+}
+
+.partner .img{
+    
+}
