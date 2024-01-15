@@ -108,11 +108,12 @@
     border-radius: 41px;
     background: #E02C6D;
 }
-.btndiv p{
+
+.btndiv p {
     width: 116px;
-    color:#fff;
+    color: #fff;
     height: 24px;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
@@ -120,18 +121,27 @@
 .btndiv img {
     width: 24px;
     height: 24px;
-    
+
 }
 
-.partner{
+.partner {
     margin-top: 100px;
     margin-left: 165px;
     width: 1110px;
     display: flex;
-    gap: 20px;
-    border-top: 1px solid black;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px;
+    border-top: 1px solid rgba(171, 170, 170, 0.22);
+    border-bottom: 1px solid rgba(171, 170, 170, 0.22);
 }
 
-.partner .img{
-    
+.img {
+    width: 85.051px;
+    height: 31.065px;
+    gap: 30px;
+    padding: 10px 15px;
+}
+.checked{
+    color:rgb(71, 71, 71);
 }
